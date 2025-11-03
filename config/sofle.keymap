@@ -83,7 +83,9 @@
                         &kp LCTRL  &kp LALT  &kp LCMD  &mo LOWER  &kp SPACE     &kp MINUS         &mo RAISE  &kp RCTRL  &kp LALT   &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT>, <&inc_dec_kp UP DOWN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         lower_layer {
@@ -106,8 +108,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+                <&inc_dec_kp UP_ARROW DOWN_ARROW>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         raise_layer {
