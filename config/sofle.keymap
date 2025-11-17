@@ -100,11 +100,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &kp F1     &kp F2     &kp F3    &kp F4            &kp F5                               &kp F6     &kp F7            &kp F8             &kp F9                &kp F10                &kp F11
-&trans  &kp N1     &kp N2     &kp N3    &kp N4            &kp N5                               &kp CARET  &kp AMPERSAND     &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
-&trans  &kp EXCL   &kp AT     &kp HASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE             &trans                 &trans
-&trans  &kp EQUAL  &kp MINUS  &kp PLUS  &kp LBRC          &kp RBRC           &trans    &trans  &kp EQUAL  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp GRAVE             &trans                 &trans
-                   &trans     &trans    &trans            &trans             &trans    &trans  &trans     &trans            &trans             &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4            &kp F5                               &kp F6     &kp F7            &kp F8             &kp F9     &kp F10  &kp F11
+&trans  &trans  &trans  &trans  &trans            &trans                               &kp CARET  &kp AMPERSAND     &kp ASTRK          &trans     &trans   &kp F12
+&trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &trans   &trans
+&trans  &trans  &trans  &trans  &kp LBRC          &kp RBRC           &trans    &trans  &kp EQUAL  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp GRAVE  &trans   &trans
+                &trans  &trans  &trans            &trans             &trans    &trans  &trans     &trans            &trans             &trans
             >;
 
             sensor-bindings =
@@ -124,7 +124,7 @@
 
             bindings = <
 &trans  &trans      &trans     &trans       &trans       &trans                      &trans     &trans    &trans    &trans     &trans   &trans
-&trans  &kp INS     &kp PSCRN  &kp K_CMENU  &trans       &trans                      &kp PG_UP  &trans    &kp UP    &trans     &kp N0   &trans
+&trans  &kp INS     &kp PSCRN  &kp K_CMENU  &trans       &trans                      &kp PG_UP  &trans    &kp UP    &trans     &trans   &trans
 &trans  &kp LALT    &kp LCTRL  &kp LSHFT    &trans       &kp CLCK                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
 &trans  &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans    &trans    &trans  &trans     &trans    &trans    &trans     &trans   &trans
                     &trans     &trans       &trans       &trans    &trans    &trans  &trans     &trans    &trans    &trans
