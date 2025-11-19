@@ -103,7 +103,7 @@
 &trans  &kp F1  &kp F2  &kp F3  &kp F4            &kp F5                               &kp F6     &kp F7            &kp F8             &kp F9     &kp F10  &kp F11
 &trans  &trans  &trans  &trans  &trans            &trans                               &kp CARET  &kp AMPERSAND     &kp ASTRK          &trans     &trans   &kp F12
 &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &trans   &trans
-&trans  &trans  &trans  &trans  &kp LBRC          &kp RBRC           &trans    &trans  &kp EQUAL  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp GRAVE  &trans   &trans
+&trans  &trans  &trans  &trans  &kp LBRC          &kp RBRC           &trans    &trans  &kp EQUAL  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp GRAVE  &trans   &kp PRINTSCREEN
                 &trans  &trans  &trans            &trans             &trans    &trans  &trans     &trans            &trans             &trans
             >;
 
